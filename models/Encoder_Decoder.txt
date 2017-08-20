@@ -1,1 +1,0 @@
-five encoders and five decoders

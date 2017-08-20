@@ -50,7 +50,7 @@ vgg3 = torch.load(opt.vgg3)
 vgg4 = torch.load(opt.vgg4)
 vgg5 = torch.load(opt.vgg5)
 
---decoder5 = torch.load(opt.decoder5)
+decoder5 = torch.load(opt.decoder5)
 decoder4 = torch.load(opt.decoder4)
 decoder3 = torch.load(opt.decoder3)
 decoder2 = torch.load(opt.decoder2)

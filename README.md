@@ -22,6 +22,12 @@ For a GPU of memory ~12G, it is suggested that the contentSize and styleSize are
 
 I found that using "CUDA_VISIBLE_DEVICES=X" is better than using "-gpu X" as the former choice will guarantee that all weights/gradients/input will be located on the same GPU.
 
+## Texture synthesis
+
+```
+th test_wct.lua -style YourStyleImagePath -synthesis 1 
+```
+
 
 ## Spatial control
 

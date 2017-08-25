@@ -1,4 +1,5 @@
 # UniversalStyleTransfer
+Torch implementation of our [paper](https://arxiv.org/pdf/1705.08086.pdf) on universal style transfer. For academic use only.
 
 ## Style transfer
 

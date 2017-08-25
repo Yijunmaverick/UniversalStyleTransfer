@@ -40,3 +40,5 @@ th test_wct_spatial2style.lua -content YourConentPath -style YourStylePath1,Your
 ## Note
 
 To save memory for testing image of large size, we need to often load and delete model. So in our code, for the transferring on each content/style pair, we need to reload the model.
+
+## Acknowledgement

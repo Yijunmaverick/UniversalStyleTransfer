@@ -265,7 +265,7 @@ local function styleTransfer(content, style, iteration)
     -------------------------------------------------------------------------- 
     --Note that since conv5 feature is hard to invert to preserve the content,
     --if you want to better preserve the content, you can start from WCT on 
-    --conv4_1 first, i.e., on Line 231,
+    --conv4_1 first, i.e., on Line 287,
     --local cF4 = vgg4:forward(content):clone()
     --------------------------------------------------------------------------
     local cF5 = vgg5:forward(content):clone()

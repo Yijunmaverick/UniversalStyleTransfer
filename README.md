@@ -3,6 +3,13 @@ Torch implementation of our [paper](https://arxiv.org/pdf/1705.08086.pdf) on uni
 
 <img src='output/028_stylized_by_woman-with-hat-matisse_alpha_60.jpg' width=400>
 
+## Prerequisites
+
+- Linux
+- NVIDIA GPU + CUDA CuDNN
+- Torch 
+- VGG encoder and pretrained decoder [models](https://drive.google.com/open?id=0B8_MZ8a8aoSeWm9HSTdXNE9Eejg) (download and put it under data/pretrained/)
+
 ## Style transfer
 
 - For a single pair test:

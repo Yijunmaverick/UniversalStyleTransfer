@@ -8,7 +8,7 @@ Torch implementation of our [paper](https://arxiv.org/pdf/1705.08086.pdf) on uni
 - Linux
 - NVIDIA GPU + CUDA CuDNN
 - Torch 
-- VGG encoder and pretrained decoder [models](https://drive.google.com/open?id=0B8_MZ8a8aoSeWm9HSTdXNE9Eejg) (download and put it under data/pretrained/)
+- Pretrained encoder and decoder [models](https://drive.google.com/open?id=0B8_MZ8a8aoSeWm9HSTdXNE9Eejg) (download and put it under models/)
 
 ## Style transfer
 

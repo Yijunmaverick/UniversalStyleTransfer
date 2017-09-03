@@ -55,4 +55,4 @@ I found that using "CUDA_VISIBLE_DEVICES=X" is better than using "-gpu X" as the
 
 ## Acknowledgement
 
-We express gratitudes to the great work [AdaIN](https://github.com/xunhuang1995/AdaIN-style) as we benefit a lot from both their paper and codes.
+We express gratitudes to the great work [AdaIN](https://github.com/xunhuang1995/AdaIN-style) and [Style-swap](https://github.com/rtqichen/style-swap) as we benefit a lot from both their paper and codes.

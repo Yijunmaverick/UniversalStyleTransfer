@@ -1,8 +1,6 @@
 # UniversalStyleTransfer
 Torch implementation of our [paper](https://arxiv.org/pdf/1705.08086.pdf) on universal style transfer. For academic use only.
 
-<img src='output/028_stylized_by_woman-with-hat-matisse_alpha_60.jpg' width=400>
-
 ## Prerequisites
 
 - Linux

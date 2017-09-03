@@ -37,7 +37,7 @@ th test_wct.lua -style YourStyleImagePath -synthesis 1
 
 Style1 for foreground (mask=1), Style2 for background (mask=0), provided a binary mask
 
-<img src='output/04_stylized_alpha_60.jpg' width=400>
+<img src='figs/p2.jpg' width=800>
 
 ```
 th test_wct_spatial2style.lua -content YourConentPath -style YourStylePath1,YourStylePath2 -mask YourBinaryMaskPath

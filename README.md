@@ -45,6 +45,9 @@ Style1 for foreground (mask=1), Style2 for background (mask=0), provided a binar
 th test_wct_spatial2style.lua -content YourConentPath -style YourStylePath1,YourStylePath2 -mask YourBinaryMaskPath
 ```
 
+## Swap on conv5_1
+
+
 ## Note
 
 To save memory for testing image of large size, we need to often load and delete model. So in our code, for the transferring on each content/style pair, we need to reload the model.

@@ -47,7 +47,7 @@ th test_wct_spatial2style.lua -content YourConentPath -style YourStylePath1,Your
 
 ## Swap on conv5_1
 
-<img src='figs/p1.jpg' width=400>
+<img src='figs/p1.jpg' width=800>
 
 
 ## Note

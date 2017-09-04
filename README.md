@@ -65,6 +65,14 @@ th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -swap5 1
 
 ## Citation
 
+```
+@inproceedings{WCT-XXX-2017,
+    author = {Li, Yijun and Fang, Chen and Yang, Jimei and Wang, Zhaowen and Lu, Xin and Yang, Ming-Hsuan},
+    title = {Universal Style Transfer via Feature Transforms},
+    booktitle = {XXX},
+    year = {2017}
+}
+```
 
 ## Acknowledgement
 

@@ -39,7 +39,7 @@ Style1 for foreground (mask=1), Style2 for background (mask=0), provided a binar
 <img src='figs/p2.jpg' width=800>
 
 ```
-th test_wct_SpatialControl_withMask.lua -content YourConentPath -style YourStylePath1,YourStylePath2 -mask YourBinaryMaskPath
+th test_wct_mask.lua -content YourConentPath -style YourStylePath1,YourStylePath2 -mask YourBinaryMaskPath
 ```
 
 ## Swap on conv5

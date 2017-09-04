@@ -19,7 +19,7 @@ th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -alpha Y
 - For large numbers of pair test:
 
 ```
-th test_wca.lua -contentDir YourContentImageDir -styleDir YourStyleImageDir -alpha YourStyleWeight
+th test_wct.lua -contentDir YourContentImageDir -styleDir YourStyleImageDir -alpha YourStyleWeight
 ```
 
 By default, we perform WCT (whitening and coloring transform) on conv1-5 features. 

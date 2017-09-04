@@ -36,7 +36,7 @@ th test_wct.lua -style YourStyleImagePath -synthesis 1
 
 ## Spatial control
 
-Often times, the one-click global transfer is not what professinal artists want. Users prefer to transfer different styles to different regions in the content image. We provide an example of transferring two styles for foreground and background respectively, i.e., Style I for foreground (mask=1), Style II for background (mask=0), provided a binary mask.
+Often times, the one-click global transfer is not what professinal artists want. Users prefer to transfer different styles to different regions in the content image. We provide an example of transferring two styles to the foreground and background respectively, i.e., Style I for foreground (mask=1), Style II for background (mask=0), provided a binary mask.
 
 <img src='figs/p2.jpg' width=800>
 

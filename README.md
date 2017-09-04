@@ -31,10 +31,10 @@ By default, we perform WCT (whitening and coloring transform) on conv1-5 feature
 
 ## Texture synthesis
 
-Though the style transfer arouses more interests, texture synthesis is the more essential problem and has more applications. By simplying filling the content image with noise, our algorithm becomes purly texture synthesis. Different input noise leads to diverse synthesis results. Moreover, we can adjust the parameter "-styleSize" as a kind of scale control to synthsize different effects.
+Though the style transfer arouses more interests, texture synthesis is the more essential problem and has more applications. By simplying filling the content image with noise (setting the parameter "-synthesis" as 1), our algorithm becomes purly texture synthesis. Different input noise leads to diverse synthesis results. Moreover, we can adjust the parameter "-styleSize" as a kind of scale control to synthsize different effects.
 
 ```
-th test_wct.lua -style YourStyleImagePath -synthesis 1 
+th test_wct.lua -style YourStyleImagePath -synthesis 1 -styleSize 768
 ```
 
 <img src='figs/p4.jpg' width=800>

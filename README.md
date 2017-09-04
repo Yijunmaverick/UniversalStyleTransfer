@@ -63,6 +63,9 @@ th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -swap5 1
 
 - We found that using "CUDA_VISIBLE_DEVICES=X" is better than using "-gpu X" as the former choice will guarantee that all weights/gradients/input will be located on the same GPU.
 
+## Citation
+
+
 ## Acknowledgement
 
 We express gratitudes to the great work [AdaIN](https://github.com/xunhuang1995/AdaIN-style) and [Style-swap](https://github.com/rtqichen/style-swap) as we benefit a lot from both their paper and codes.

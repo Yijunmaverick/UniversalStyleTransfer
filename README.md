@@ -31,6 +31,8 @@ By default, we perform WCT (whitening and coloring transform) on conv1-5 feature
 
 ## Texture synthesis
 
+Though the style transfer arouses more interests, texture synthesis is the more essential problem and has more applications. By simplying filling the content image with Gaussain noise, our algorithm becomes purly texture synthesis.
+
 ```
 th test_wct.lua -style YourStyleImagePath -synthesis 1 
 ```

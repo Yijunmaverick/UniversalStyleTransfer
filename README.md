@@ -46,7 +46,9 @@ th test_wct_mask.lua -content YourConentPath -style YourStylePath1,YourStylePath
 
 ## Swap on conv5
 
-We provide a parameter "-swap5 1" to perform swap operation on conv5 features. 
+We also include the [Style-swap](https://github.com/rtqichen/style-swap) function in our algorithm but we perform the swap operation based on whitened features. Please refer to their [paper](https://arxiv.org/pdf/1612.04337.pdf) for more details.
+
+We provide a parameter "-swap5" to perform swap operation on conv5 features. The swap operation is computationally expensive as it is based on searching nearest patches. So we do not provide the swap on layers with large feature maps (e.g., conv1-4).
 
 ```
 th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -swap5 1

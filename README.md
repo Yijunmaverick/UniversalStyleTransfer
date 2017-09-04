@@ -36,7 +36,7 @@ th test_wct.lua -style YourStyleImagePath -synthesis 1
 
 ## Spatial control
 
-Style1 for foreground (mask=1), Style2 for background (mask=0), provided a binary mask
+Often times, the one-click global transfer is not what professinal artists want.  Style1 for foreground (mask=1), Style2 for background (mask=0), provided a binary mask
 
 <img src='figs/p2.jpg' width=800>
 

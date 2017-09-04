@@ -53,7 +53,7 @@ We provide a parameter "-swap5" to perform swap operation on conv5 features. The
 ```
 th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -swap5 1
 ```
-Below is an exemplary comparison between w/o and w/ swap operation on conv5. It is obsearved that the eyeball in the content is swapped with the ball in the style (bottom) as they are cloeset neighbours in whitened feature space.
+Below is an exemplary comparison between w/o and w/ swap operation on conv5. It is obsearved that with the swapping, the eyeball in the content is replaced with the ball in the style (bottom) as they are cloeset neighbours in whitened feature space.
 
 <img src='figs/p1.jpg' width=840>
 

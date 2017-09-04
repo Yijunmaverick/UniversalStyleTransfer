@@ -42,7 +42,7 @@ Style1 for foreground (mask=1), Style2 for background (mask=0), provided a binar
 th test_wct_SpatialControl_withMask.lua -content YourConentPath -style YourStylePath1,YourStylePath2 -mask YourBinaryMaskPath
 ```
 
-## Swap on conv5_1
+## Swap on conv5
 
 We provide a parameter "-swap5 1" to perform swap operation on conv5 features. 
 

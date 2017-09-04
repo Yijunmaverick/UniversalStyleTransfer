@@ -55,6 +55,8 @@ th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -swap5 1
 
 ## Note
 
+- In theory, the covariance matrix of whitened features should be Identity. In practise, it is not because we need to eliminate some extremely small eigen values (<1e-10) in order to perform the inverse operation (D^-1/2) in the whitening.
+
 - To save memory for testing image of large size, we need to often load and delete model. So in our code, for the transferring on each content/style pair, we need to reload the model.
 
 - For a GPU of memory ~12G, it is suggested that the contentSize and styleSize are all less than 900 (800 recommended for the largest size).

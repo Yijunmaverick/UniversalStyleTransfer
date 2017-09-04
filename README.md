@@ -22,9 +22,8 @@ th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -alpha Y
 th test_wca.lua -contentDir YourContentImageDir -styleDir YourStyleImageDir -alpha YourStyleWeight
 ```
 
-By default, we perform WCT (whitening and coloring transform) on relu1/2/3/4/5_1 features. 
+By default, we perform WCT (whitening and coloring transform) on conv1-5 features. 
 
-We provide a parameter "-swap5 1" to perform swap operation on relu5_1 features. 
 
 ## Texture synthesis
 
@@ -44,6 +43,12 @@ th test_wct_spatial2style.lua -content YourConentPath -style YourStylePath1,Your
 ```
 
 ## Swap on conv5_1
+
+We provide a parameter "-swap5 1" to perform swap operation on conv5 features. 
+
+```
+th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -swap5 1
+```
 
 <img src='figs/p1.jpg' width=800>
 

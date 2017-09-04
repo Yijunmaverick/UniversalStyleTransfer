@@ -50,7 +50,7 @@ We provide a parameter "-swap5 1" to perform swap operation on conv5 features.
 th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -swap5 1
 ```
 
-<img src='figs/p1.jpg' width=800>
+<img src='figs/p1.jpg' width=900>
 
 
 ## Note

@@ -1,6 +1,8 @@
 # UniversalStyleTransfer
 Torch implementation of our [paper](https://arxiv.org/pdf/1705.08086.pdf) on universal style transfer. For academic use only.
 
+Universal style transfer aims to transfer any arbitrary visual styles to content images. As long as you can find your desired style images on web, you can edit your content image with different transferring effects. 
+
 <img src='figs/p3.jpg' width=800>
 
 ## Prerequisites

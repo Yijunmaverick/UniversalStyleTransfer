@@ -35,6 +35,8 @@ By default, we perform WCT (whitening and coloring transform) on conv1-5 feature
 th test_wct.lua -style YourStyleImagePath -synthesis 1 
 ```
 
+<img src='figs/p4.jpg' width=800>
+
 
 ## Spatial control
 

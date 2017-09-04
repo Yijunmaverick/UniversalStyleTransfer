@@ -55,7 +55,7 @@ th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -swap5 1
 
 ## Note
 
-- In theory, the covariance matrix of whitened features should be Identity. In practise, it is not because we need to eliminate some extremely small eigen values (<1e-10) in order to perform the inverse operation (D^-1/2) in the whitening.
+- In theory, the covariance matrix of whitened features should be Identity. In practise, it is not because we need to eliminate some extremely small eigen values (<1e-10) or add a small constant (1e-7) to all eigen values in order to perform the inverse operation (D^-1/2) in the whitening.
 
 - To save memory for testing image of large size, we need to often load and delete model. So in our code, for the transferring on each content/style pair, we need to reload the model.
 

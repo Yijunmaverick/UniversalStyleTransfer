@@ -1,5 +1,5 @@
 # UniversalStyleTransfer
-Torch implementation of our [paper](https://arxiv.org/pdf/1705.08086.pdf) on universal style transfer. For academic use only.
+Torch implementation of our NIPS17 [paper](https://arxiv.org/pdf/1705.08086.pdf) on universal style transfer. For academic use only.
 
 Universal style transfer aims to transfer any arbitrary visual styles to content images. As long as you can find your desired style images on web, you can edit your content image with different transferring effects. 
 
@@ -78,10 +78,10 @@ Below is an exemplary comparison between w/o and w/ swap operation on conv5. It 
 ## Citation
 
 ```
-@inproceedings{WCT-XXX-2017,
+@inproceedings{WCT-NIPS-2017,
     author = {Li, Yijun and Fang, Chen and Yang, Jimei and Wang, Zhaowen and Lu, Xin and Yang, Ming-Hsuan},
     title = {Universal Style Transfer via Feature Transforms},
-    booktitle = {XXX},
+    booktitle = {Advances in Neural Information Processing Systems},
     year = {2017}
 }
 ```

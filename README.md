@@ -87,9 +87,11 @@ Below is an exemplary comparison between w/o and w/ swap operation on conv5. It 
 
 ## User study
 
-A common issue in style transfer is the evaluation. To understand user preferences, we conduct a user study to evaluate 5 methods shown in Figure 6 of our paper. We display stylized images by 5 compared methods side-by-side on a webpage in random order. Each subject is asked to vote his/her ONE favorite result for each style. We appreciate your help if you can spend 3~4 minutes for this [study]().
+A common issue in style transfer is the evaluation. To understand user preferences, we conduct a user study to evaluate 5 methods shown in Figure 6 of our paper. We appreciate your help if you can spend 3~4 minutes for this [study](http://169.236.182.49:8008/).
 
 
 ## Acknowledgement
 
-We express gratitudes to the great work [AdaIN](https://github.com/xunhuang1995/AdaIN-style) and [Style-swap](https://github.com/rtqichen/style-swap) as we benefit a lot from both their paper and codes.
+- We express gratitudes to the great work [AdaIN](https://github.com/xunhuang1995/AdaIN-style) and [Style-swap](https://github.com/rtqichen/style-swap) as we benefit a lot from both their paper and codes.
+
+- We thank [Wei-Sheng Lai](http://graduatestudents.ucmerced.edu/wlai24/) for his huge help on the user study design and all subjects that provide helpful feedbacks and suggestions.

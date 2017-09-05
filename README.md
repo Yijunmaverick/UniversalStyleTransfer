@@ -72,7 +72,6 @@ Below is an exemplary comparison between w/o and w/ swap operation on conv5. It 
 
 - To save memory for testing image of large size, we need to often load and delete model. So in our code, for the transferring on each content/style pair, we need to reload the model.
 
-- We found that using "CUDA_VISIBLE_DEVICES=X" is better than using "-gpu X" as the former choice will guarantee that all weights/gradients/input will be located on the same GPU.
 
 ## Citation
 

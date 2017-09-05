@@ -25,7 +25,7 @@ th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -alpha Y
 th test_wct.lua -contentDir YourContentImageDir -styleDir YourStyleImageDir -alpha YourStyleWeight
 ```
 
-By default, we perform WCT (whitening and coloring transform) on conv1-5 features. Some transfer results and comparisons with existing methods are shown [here](https://drive.google.com/file/d/0B8_MZ8a8aoSed3RrcTBfM1hES3c/view).
+By default, we perform WCT (whitening and coloring transform) on conv1-5 features. The "-alpha" serves as the style weight to control the transfer effect. We use alpha = 0.6 in all experiments. Some transfer results and comparisons with existing methods are shown [here](https://drive.google.com/file/d/0B8_MZ8a8aoSed3RrcTBfM1hES3c/view).
 
 
 ## Texture synthesis

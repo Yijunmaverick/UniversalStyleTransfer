@@ -288,7 +288,7 @@ local function styleTransfer(content, style, iteration)
     local sF4 = vgg4:forward(style):clone()
     vgg4 = nil
 
-    local csF4 = feature_swap_whiten(cF4, sF4)
+    local csF4 = feature_wct(cF4, sF4)
     csF4 = opt.alpha * csF4 + (1.0-opt.alpha) * cF4
     local Im4 = decoder4:forward(csF4)
     decoder4 = nil

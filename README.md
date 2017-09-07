@@ -70,8 +70,6 @@ Below is an exemplary comparison between w/o and w/ swap operation on conv5. It 
 
 - Our decoders trained for reconstruction is not perfect. As inverting deeper features (e.g., conv5_1) to RGB images is relatively difficult, we expect better decoders from researchers. If users prefer to preserve detailed structures in the content during the transferring, a more powerful decoder is necessary.
 
-- To save memory for testing image of large size, we need to often load and delete model. So in our code, for the transferring on each content/style pair, we need to reload the model.
-
 
 ## Citation
 

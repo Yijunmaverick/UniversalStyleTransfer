@@ -15,7 +15,6 @@ cmd:option('-styleDir', '', 'path to the style image folder')
 cmd:option('-content', 'input/content/04.jpg', 'path to the content image')
 cmd:option('-contentDir', '', 'path to the content image folder')
 
-cmd:option('-swap5', 0)
 cmd:option('-alpha', 0.6)
 cmd:option('-patchSize', 3)
 cmd:option('-patchStride', 1)

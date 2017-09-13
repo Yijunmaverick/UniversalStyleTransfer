@@ -134,7 +134,7 @@ function feature_swap_whiten(cF, sF)
     local s_d = torch.sqrt(s_e[{{1,k_s}}]):pow(-1)
     local whiten_styleFeature = s_v[{{},{1,k_s}}]*torch.diag(s_d)*(s_v[{{},{1,k_s}}]:t())*styleFeature1
     
-
+    -- borrow from https://github.com/rtqichen/style-swap/blob/master/style-swap.lua
     local swap_enc, swap_dec = NonparametricPatchAutoencoderFactory.buildAutoencoder(whiten_styleFeature:resize(sz[1], sz[2], sz[3]), opt.patchSize, opt.patchStride, false, false, true)
 
     local swap = nn.Sequential()
@@ -252,7 +252,7 @@ local function styleTransfer(content, style, iteration)
 
     --WCT on conv5_1
     -------------------------------------------------------------------------- 
-    --Note that since conv5 feature is hard to invert to preserve the content,
+    --Note that since conv5 feature is hard to invert,
     --if you want to better preserve the content, you can start from WCT on 
     --conv4_1 first, i.e., on Line 276,
     --local cF4 = vgg4:forward(content):clone()

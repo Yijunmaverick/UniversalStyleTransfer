@@ -25,9 +25,9 @@ th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -alpha Y
 th test_wct.lua -contentDir YourContentImageDir -styleDir YourStyleImageDir -alpha YourStyleWeight
 ```
 
-By default, we perform the WCT (whitening and coloring transform) on conv1-5 features. The "-alpha" serves as the style weight to control the transfer effect. Some transfer results and comparisons with existing methods are shown [here](https://drive.google.com/file/d/0B8_MZ8a8aoSed3RrcTBfM1hES3c/view).
+By default, we perform WCT (whitening and coloring transform) on conv1-5 features. The "-alpha" serves as the style weight to control the transfer effect. Some transfer results and comparisons with existing methods are shown [here](https://drive.google.com/file/d/0B8_MZ8a8aoSed3RrcTBfM1hES3c/view).
 
-For comparison, we replace the WCT with AdaIN (adaptive instance normalization), another way of transform proposed in [[Huang et al., ICCV17]](https://arxiv.org/pdf/1703.06868.pdf).
+For comparison, we replace WCT with [AdaIN](https://github.com/xunhuang1995/AdaIN-style) (adaptive instance normalization), another way of transform proposed in [[Huang et al., ICCV17]](https://arxiv.org/pdf/1703.06868.pdf).
 
 ```
 th test_adain.lua -content YourContentImagePath -style YourStyleImagePath

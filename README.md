@@ -1,9 +1,7 @@
 # UniversalStyleTransfer
 Torch implementation of our NIPS17 [paper](https://arxiv.org/pdf/1705.08086.pdf) on universal style transfer. For academic use only.
 
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
-
-TensorFlow implementation by Evan Davis. 
+- !#f03c15 [TensorFlow](https://github.com/eridgd/WCT-TF) implementation by Evan Davis. 
 
 Universal style transfer aims to transfer any arbitrary visual styles to content images. As long as you can find your desired style images on web, you can edit your content image with different transferring effects.
 

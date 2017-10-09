@@ -295,11 +295,8 @@ for i=1,numContent do
         table.insert(styleImg, style)
         styleName = paths.basename(stylePath, styleExt)
     end
-    
-    local timer = torch.Timer() 
-        
+            
     local output = styleTransfer(contentImg, styleImg)
-    print('Time: ' .. timer:time().real .. ' seconds')
     local savePath = paths.concat(opt.outputDir, contentName .. '_stylized_' ..'alpha_' ..opt.alpha*100 .. '.' .. opt.saveExt)
     print('Output image saved at: ' .. savePath)
     image.save(savePath, output)

@@ -232,9 +232,7 @@ for i=1,numContent do
         styleName = paths.basename(stylePath, styleExt)
 
         if opt.synthesis == 0 then
-            local timer = torch.Timer() 
             local output = styleTransfer(contentImg, styleImg, 1)
-            print('Time: ' .. timer:time().real .. ' seconds')
             local savePath = paths.concat(opt.outputDir, contentName .. '_stylized_by_' .. styleName .. '_alpha_' ..opt.alpha*100 .. '_adain.' .. opt.saveExt)
             print('Output image saved at: ' .. savePath)
             image.save(savePath, output)
@@ -242,9 +240,7 @@ for i=1,numContent do
        else
             --We empirically find that 3 iterations are enough for a visually-pleasing result
             for iter = 1, 3 do
-                local timer = torch.Timer() 
                 output = styleTransfer(contentImg, styleImg, iter)
-                print('Time: ' .. timer:time().real .. ' seconds')
                 local savePath = paths.concat(opt.outputDir, styleName .. '_iter' .. iter .. '_alpha_' ..opt.alpha*100 .. '_adain.' .. opt.saveExt)
                 print('Output image saved at: ' .. savePath)
                 image.save(savePath, output)

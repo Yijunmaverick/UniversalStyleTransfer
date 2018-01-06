@@ -80,13 +80,13 @@ Below is an exemplary comparison between w/o and w/ swap operation on conv5. Wit
 Our method also support the transferring or synthesis of multiple styles thourgh interpolation. Below is an example of handling two styles. The "-beta" serves as the intepolation weight between two examples.
 
 
-- Interpolated style transferring ([demo](https://www.youtube.com/watch?v=8V1dNu9doao))
+- Interpolated style transferring ([demo](https://www.youtube.com/watch?v=8V1dNu9doao), -beta from 1 to 0)
 ```
 th test_wct_interpolation2.lua -content YourContentPath -style YourStylePath1,YourStylePath2 -beta 0.5
 ```
 <img src='figs/p6.jpg' width=800>
 
-- Interpolated texture synthesis ([demo](https://www.youtube.com/watch?v=5sQbDv_eO0g))
+- Interpolated texture synthesis ([demo](https://www.youtube.com/watch?v=5sQbDv_eO0g), -beta from 1 to 0)
 ```
 th test_wct_interpolation2.lua -style YourTexturePath1,YourTexturePath2 -beta 0.5 -synthesis 1
 ```

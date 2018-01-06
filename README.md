@@ -75,6 +75,12 @@ Below is an exemplary comparison between w/o and w/ swap operation on conv5. Wit
 
 <img src='figs/p1.jpg' width=840>
 
+## Interpolation
+
+```
+th test_wct_interpolation2.lua -content YourContentImagePath -style YourStylePath1,YourStylePath2 -interpolation_weight 0.5
+```
+
 
 ## Note
 

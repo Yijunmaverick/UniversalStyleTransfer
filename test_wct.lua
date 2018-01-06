@@ -380,6 +380,8 @@ for i=1,numContent do
 
        else
             --We empirically find that 3 iterations are enough for a visually-pleasing result
+            --By default, for texture synthesis, we set alpha = 1.0 because there are no content features here to blend
+            opt.alpha = 1.0
             for iter = 1, 3 do
                 output = styleTransfer(contentImg, styleImg, iter)
                 local savePath = paths.concat(opt.outputDir, styleName .. '_iter' .. iter .. '_alpha_' ..opt.alpha*100 .. '.' .. opt.saveExt)

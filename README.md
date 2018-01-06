@@ -84,7 +84,7 @@ Our method also support the transferring or synthesis of multiple styles thourgh
 ```
 th test_wct_interpolation2.lua -content YourContentPath -style YourStylePath1,YourStylePath2 -beta 0.5
 ```
-<img src='figs/p6.jpg' width=800>
+<img src='figs/p6.jp' width=800>
 
 - Interpolated texture synthesis ([demo](https://www.youtube.com/watch?v=5sQbDv_eO0g))
 ```

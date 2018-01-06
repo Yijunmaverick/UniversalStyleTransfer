@@ -231,8 +231,9 @@ for i=1,numContent do
         styleImg = sizePreprocess(styleImg, opt.styleSize)
         styleName = paths.basename(stylePath, styleExt)
 
+	local output = nil
         if opt.synthesis == 0 then
-            local output = styleTransfer(contentImg, styleImg, 1)
+            output = styleTransfer(contentImg, styleImg, 1)
             local savePath = paths.concat(opt.outputDir, contentName .. '_stylized_by_' .. styleName .. '_alpha_' ..opt.alpha*100 .. '_adain.' .. opt.saveExt)
             print('Output image saved at: ' .. savePath)
             image.save(savePath, output)

@@ -298,7 +298,6 @@ for i=1,numContent do
             image.save(savePath, output)
             contentImg = output
         end
-
     end
     
 end

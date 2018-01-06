@@ -13,9 +13,9 @@ local cmd = torch.CmdLine()
 cmd:option('-style', 'input/style/002937.jpg,input/style/brick.jpg','two style images, separate by comma')
 cmd:option('-content', 'input/content/04.jpg', 'content image')
 
-cmd:option('-alpha', 0.6)
+cmd:option('-alpha', 0.6, 'the stylization weight')
 cmd:option('-synthesis', 0 , '0-transfer, 1-synthesis')
-cmd:option('-beta', 0.5)
+cmd:option('-beta', 0.5, 'the interpolation weight')
 
 cmd:option('-vgg1', 'models/vgg_normalised_conv1_1.t7', 'Path to the VGG conv1_1')
 cmd:option('-vgg2', 'models/vgg_normalised_conv2_1.t7', 'Path to the VGG conv2_1')

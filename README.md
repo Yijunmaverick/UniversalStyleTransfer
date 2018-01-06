@@ -77,7 +77,7 @@ Below is an exemplary comparison between w/o and w/ swap operation on conv5. Wit
 
 ## Interpolation
 
-Our method also support the transferring or synthesis of multiple styles thourgh interpolation. Below is an example of handling two styles. The "-beta" serves as the intepolation weight.
+Our method also supports the transferring or synthesis of multiple styles thourgh interpolation. Below is an example of handling two styles. The "-beta" serves as the intepolation weight.
 
 
 - Interpolated style transferring ([demo](https://www.youtube.com/watch?v=8V1dNu9doao), -beta from 1 to 0)

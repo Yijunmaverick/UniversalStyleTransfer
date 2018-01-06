@@ -22,13 +22,13 @@ Universal style transfer aims to transfer arbitrary visual styles to content ima
 - For a single pair test:
 
 ```
-th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -alpha 0.6
+th test_wct.lua -content YourContentPath -style YourStylePath -alpha 0.6
 ```
 
 - For large numbers of pair test:
 
 ```
-th test_wct.lua -contentDir YourContentImageDir -styleDir YourStyleImageDir -alpha 0.6
+th test_wct.lua -contentDir YourContentDir -styleDir YourStyleDir -alpha 0.6
 ```
 
 By default, we perform WCT (whitening and coloring transform) on conv1-5 features. The "-alpha" serves as the style weight to control the transfer effect. Some transfer results and comparisons with existing methods are shown [here](https://drive.google.com/file/d/0B8_MZ8a8aoSed3RrcTBfM1hES3c/view).
@@ -36,7 +36,7 @@ By default, we perform WCT (whitening and coloring transform) on conv1-5 feature
 For comparison, we replace WCT with [AdaIN](https://github.com/xunhuang1995/AdaIN-style) (adaptive instance normalization), another way of transform proposed in [[Huang et al., ICCV17]](https://arxiv.org/pdf/1703.06868.pdf).
 
 ```
-th test_adain.lua -content YourContentImagePath -style YourStyleImagePath
+th test_adain.lua -content YourContentPath -style YourStylePath
 ```
 
 
@@ -45,7 +45,7 @@ th test_adain.lua -content YourContentImagePath -style YourStyleImagePath
 By setting the content image as a random noise image, our stylization framework can be easily applied to texture synthesis. Different input noise leads to diverse synthesis results. Moreover, we can adjust the parameter "-styleSize" as a kind of scale control to obtain different effects.
 
 ```
-th test_wct.lua -style YourStyleImagePath -synthesis 1 -styleSize 512
+th test_wct.lua -style YourTexturePath -synthesis 1 -styleSize 512
 ```
 
 <img src='figs/p4.jpg' width=800>
@@ -69,7 +69,7 @@ We also include the [Style-swap](https://github.com/rtqichen/style-swap) functio
 We provide a parameter "-swap5" to perform swap operation on conv5 features. As the swap operation is computationally expensive (searching nearest patches), we do not carry out the swapping on early layers with large feature maps (e.g., conv1-4).
 
 ```
-th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -swap5 1
+th test_wct.lua -content YourContentPath -style YourStylePath -swap5 1
 ```
 Below is an exemplary comparison between w/o and w/ swap operation on conv5. With the swapping, the eyeball in the content is replaced with the ball in the style (bottom) as they are cloeset neighbours in whitened feature space.
 
@@ -80,7 +80,7 @@ Below is an exemplary comparison between w/o and w/ swap operation on conv5. Wit
 Our method also support the transferring or synthesis of multiple styles thourgh interpolation. Below is an example of handling two style examples. The "-beta" serves as the intepolation weight between two examples.
 
 ```
-th test_wct_interpolation2.lua -content YourContentImagePath -style YourStylePath1,YourStylePath2 -beta 0.5
+th test_wct_interpolation2.lua -content YourContentPath -style YourStylePath1,YourStylePath2 -beta 0.5
 ```
 
 ```

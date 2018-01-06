@@ -22,13 +22,13 @@ Universal style transfer aims to transfer arbitrary visual styles to content ima
 - For a single pair test:
 
 ```
-th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -alpha YourStyleWeight
+th test_wct.lua -content YourContentImagePath -style YourStyleImagePath -alpha 0.6
 ```
 
 - For large numbers of pair test:
 
 ```
-th test_wct.lua -contentDir YourContentImageDir -styleDir YourStyleImageDir -alpha YourStyleWeight
+th test_wct.lua -contentDir YourContentImageDir -styleDir YourStyleImageDir -alpha 0.6
 ```
 
 By default, we perform WCT (whitening and coloring transform) on conv1-5 features. The "-alpha" serves as the style weight to control the transfer effect. Some transfer results and comparisons with existing methods are shown [here](https://drive.google.com/file/d/0B8_MZ8a8aoSed3RrcTBfM1hES3c/view).
@@ -77,8 +77,14 @@ Below is an exemplary comparison between w/o and w/ swap operation on conv5. Wit
 
 ## Interpolation
 
+Our method also support the transferring or synthesis of multiple styles thourgh interpolation. Below is an example of handling two style examples. The "-beta" serves as the intepolation weight between two examples.
+
 ```
-th test_wct_interpolation2.lua -content YourContentImagePath -style YourStylePath1,YourStylePath2 -interpolation_weight 0.5
+th test_wct_interpolation2.lua -content YourContentImagePath -style YourStylePath1,YourStylePath2 -beta 0.5
+```
+
+```
+th test_wct_interpolation2.lua -style YourTexturePath1,YourTexturePath2 -beta 0.5 -synthesis 1
 ```
 
 

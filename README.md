@@ -86,7 +86,7 @@ th test_wct_interpolation2.lua -content YourContentPath -style YourStylePath1,Yo
 ```
 <img src='figs/p6.jpg' width=800>
 
-- Interpolated texture synthesis ([demo]()https://www.youtube.com/watch?v=5sQbDv_eO0g)
+- Interpolated texture synthesis ([demo](https://www.youtube.com/watch?v=5sQbDv_eO0g))
 ```
 th test_wct_interpolation2.lua -style YourTexturePath1,YourTexturePath2 -beta 0.5 -synthesis 1
 ```

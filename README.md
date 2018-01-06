@@ -85,6 +85,13 @@ Our method also support the transferring or synthesis of multiple styles thourgh
 th test_wct_interpolation2.lua -content YourContentPath -style YourStylePath1,YourStylePath2 -beta 0.5
 ```
 
+<div align="center">
+    <iframe width="620" height="315"
+        src="https://www.youtube.com/watch?v=8V1dNu9doao">
+    </iframe>
+</div>
+
+
 - Interpolated texture synthesis
 ```
 th test_wct_interpolation2.lua -style YourTexturePath1,YourTexturePath2 -beta 0.5 -synthesis 1

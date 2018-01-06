@@ -34,8 +34,8 @@ cmd:option('-decoder3', 'models/feature_invertor_conv3_1.t7', 'Path to the decod
 cmd:option('-decoder2', 'models/feature_invertor_conv2_1.t7', 'Path to the decoder2')
 cmd:option('-decoder1', 'models/feature_invertor_conv1_1.t7', 'Path to the decoder1')
 
-cmd:option('-contentSize', 512, 'New (minimum) size for the content image, keeping the original size if set to 0')
-cmd:option('-styleSize', 512, 'New (minimum) size for the style image, keeping the original size if set to 0')
+cmd:option('-contentSize', 768, 'New (minimum) size for the content image, keeping the original size if set to 0')
+cmd:option('-styleSize', 768, 'New (minimum) size for the style image, keeping the original size if set to 0')
 cmd:option('-crop', false, 'If true, center crop both content and style image before resizing')
 cmd:option('-saveExt', 'jpg', 'The extension name of the output image')
 cmd:option('-gpu', 0, 'Zero-indexed ID of the GPU to use; for CPU mode set -gpu = -1')

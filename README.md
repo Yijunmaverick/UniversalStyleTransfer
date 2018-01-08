@@ -114,7 +114,7 @@ th test_wct_interpolation2.lua -style YourTexturePath1,YourTexturePath2 -beta 0.
 
 ## User study
 
-A common issue in style transfer is the evaluation. To understand user preferences, we conduct a user study to evaluate 5 methods shown in Figure 6 of our paper. We appreciate your help if you can spend 3~4 minutes for this [study](http://169.236.182.49:8008/).
+A common issue in style transfer is the evaluation. To understand the user preference, we conduct a user study to evaluate 5 methods shown in Figure 6 of our paper. We appreciate your help if you can spend 3~4 minutes on this [study](http://169.236.182.49:8008/).
 
 
 ## Acknowledgement

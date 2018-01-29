@@ -9,7 +9,6 @@ require 'cunn'
 
 local cmd = torch.CmdLine()
 
---1st style applied to Foreground (mask==1), 2nd style applied to Background (mask==0)
 cmd:option('-style', 'input/style/002937.jpg,input/style/brick.jpg','two style images, separate by comma')
 cmd:option('-content', 'input/content/04.jpg', 'content image')
 

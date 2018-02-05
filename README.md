@@ -15,7 +15,7 @@ Universal style transfer aims to transfer arbitrary visual styles to content ima
 - Linux
 - NVIDIA GPU + CUDA CuDNN
 - Torch 
-- Pretrained encoder and decoder [models](https://drive.google.com/open?id=0B8_MZ8a8aoSeWm9HSTdXNE9Eejg) for image reconstruction only (download and put them under models/)
+- Pretrained encoder and decoder [models](https://drive.google.com/open?id=0B8_MZ8a8aoSeWm9HSTdXNE9Eejg) for image reconstruction only (download and put them under models/). If no CuDNN installed, please download the decoders (here)[https://drive.google.com/open?id=1wVPtu4gGkUWpb9YtRecveFvdo4ZN5kMD].
 
 ## Style transfer
 

@@ -47,33 +47,9 @@ By setting the content image as a random noise image, our stylization framework 
 ```
 th test_wct.lua -style YourTexturePath -synthesis 1 -styleSize 512
 ```
-
+'''
 <img src='figs/p4.jpg' width=800>
-
-
-## Spatial control
-
-Often times, the one-click global transfer still does not meet requirements from professinal users (e.g., artists). Users prefer to transfer different styles to different regions in the content image, i.e., spatial control. We provide an example of transferring two styles to the foreground and background respectively, i.e., Style I for foreground (mask=1), Style II for background (mask=0), provided a binary mask.
-
-```
-th test_wct_mask.lua -content YourConentPath -style YourStylePath1,YourStylePath2 -mask YourBinaryMaskPath
-```
-
-<img src='figs/p2.jpg' width=800>
-
-
-## Swap on conv5
-
-We also include the [Style-swap](https://github.com/rtqichen/style-swap) function in our algorithm. For each whitened content feature patch, we swap it with nearest whitened style feature patch. Please refer to the Style-swap [paper](https://arxiv.org/pdf/1612.04337.pdf) for more details.
-
-We provide a parameter "-swap5" to perform swap operation on conv5 features. As the swap operation is computationally expensive (searching nearest patches), we do not carry out the swapping on early layers with large feature maps (e.g., conv1-4).
-
-```
-th test_wct.lua -content YourContentPath -style YourStylePath -swap5 1
-```
-Below is an exemplary comparison between w/o and w/ swap operation on conv5. With the swapping, the eyeball in the content is replaced with the ball in the style (bottom) as they are cloeset neighbours in whitened feature space.
-
-<img src='figs/p1.jpg' width=840>
+'''
 
 ## Interpolation
 
@@ -113,6 +89,30 @@ th test_wct_interpolation2.lua -style YourTexturePath1,YourTexturePath2 -beta 0.
     <img src='figs/t5.jpg' height=100 width=100 />
 </p>
 
+
+## Spatial control
+
+Often times, the one-click global transfer still does not meet requirements from professinal users (e.g., artists). Users prefer to transfer different styles to different regions in the content image, i.e., spatial control. We provide an example of transferring two styles to the foreground and background respectively, i.e., Style I for foreground (mask=1), Style II for background (mask=0), provided a binary mask.
+
+```
+th test_wct_mask.lua -content YourConentPath -style YourStylePath1,YourStylePath2 -mask YourBinaryMaskPath
+```
+
+<img src='figs/p2.jpg' width=800>
+
+
+## Swap on conv5
+
+We also include the [Style-swap](https://github.com/rtqichen/style-swap) function in our algorithm. For each whitened content feature patch, we swap it with nearest whitened style feature patch. Please refer to the Style-swap [paper](https://arxiv.org/pdf/1612.04337.pdf) for more details.
+
+We provide a parameter "-swap5" to perform swap operation on conv5 features. As the swap operation is computationally expensive (searching nearest patches), we do not carry out the swapping on early layers with large feature maps (e.g., conv1-4).
+
+```
+th test_wct.lua -content YourContentPath -style YourStylePath -swap5 1
+```
+Below is an exemplary comparison between w/o and w/ swap operation on conv5. With the swapping, the eyeball in the content is replaced with the ball in the style (bottom) as they are cloeset neighbours in whitened feature space.
+
+<img src='figs/p1.jpg' width=840>
 
 ## Note
 

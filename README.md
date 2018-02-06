@@ -94,21 +94,21 @@ th test_wct_interpolation2.lua -style YourTexturePath1,YourTexturePath2 -beta 0.
 <img src='figs/p5.jpg' width=800>
 
 <p>
-    <img src='figs/t1.jpg' width=100 />
-    <img src='figs/t2.jpg' width=100 />
-    <img src='figs/t3.jpg' width=100 /> 
+    <img src='figs/t1.jpg' height=100 width=100 />
+    <img src='figs/t2.jpg' height=100 width=100 />
+    <img src='figs/t3.jpg' height=100 width=100 /> 
 </p>
 
 <p>
-    <img src='figs/t8.jpg' width=100 />
+    <img src='figs/t8.jpg' height=100 width=100 />
     <img src='figs/texture_interpolation.gif' width=100 />
-    <img src='figs/t4.jpg' width=100 /> 
+    <img src='figs/t4.jpg' height=100 width=100 /> 
 </p>
 
 <p> 
-    <img src='figs/t7.jpg' width=100 />
-    <img src='figs/t6.jpg' width=100 />
-    <img src='figs/t5.jpg' width=100 />
+    <img src='figs/t7.jpg' height=100 width=100 />
+    <img src='figs/t6.jpg' height=100 width=100 />
+    <img src='figs/t5.jpg' height=100 width=100 />
 </p>
 
 

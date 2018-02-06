@@ -103,7 +103,7 @@ th test_wct_interpolation2.lua -style YourTexturePath1,YourTexturePath2 -beta 0.
     <img src='figs/t8.jpg' height=100 width=100 />
     <img src='figs/arrow.png' height=100 width=100 /> 
     <img src='figs/t4.jpg' height=100 width=100 /> 
-    <img src='figs/texture_interpolation.gif' width=300 />
+    <img src='figs/texture_interpolation.gif' width=100 />
 </p>
 
 <p> 

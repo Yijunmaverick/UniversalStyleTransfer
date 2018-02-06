@@ -69,7 +69,7 @@ th test_wct_interpolation2.lua -style YourTexturePath1,YourTexturePath2 -beta 0.
 
 <img src='figs/p5.jpg' width=800>
 
-Below we show an example of the synthesis path from texture 1 (top left) to texture 2, then texture 3, ..., to texture 8 and back to texture 1 (clockwise).
+Below we show an example of the synthesis path from t1 (left) to t2, then t3, ..., to t8 and back to t1.
 
 <p>
     <img src='figs/t.jpg' height=100 width=100 />

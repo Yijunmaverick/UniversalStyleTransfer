@@ -84,10 +84,9 @@ Below we show an example of the synthesis path from texture 1 (top left) to text
 
 <p>
     <img src='figs/white.jpg' height=100 width=100 />
-    <img src='figs/white.png' height=100 width=100 /> 
     <img src='figs/white.jpg' height=100 width=100 /> 
     <img src='figs/white.jpg' height=100 width=100 /> 
-    <img src='figs/texture_interpolation.gif' width=100 />
+    <img src='figs/texture_interpolation.gif' width=200 />
 </p>
 
 

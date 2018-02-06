@@ -47,9 +47,9 @@ By setting the content image as a random noise image, our stylization framework 
 ```
 th test_wct.lua -style YourTexturePath -synthesis 1 -styleSize 512
 ```
-'''
+
 <img src='figs/p4.jpg' width=800>
-'''
+
 
 ## Interpolation
 

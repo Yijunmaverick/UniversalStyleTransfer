@@ -134,7 +134,7 @@ Below is an exemplary comparison between w/o and w/ swap operation on conv5. Wit
 
 ## User study
 
-A common issue in style transfer is the evaluation. To understand the user preference, we conduct a user study to evaluate 5 methods shown in Figure 6 of our paper. We appreciate your help if you can spend 3~4 minutes on this [study](http://169.236.182.49:8008/). Check the updated feedback [here](http://169.236.182.49:8008/dump) (please be polite and serious on results and comments). Our method keeps receiving more votes from extensive users.
+A common issue in style transfer is the evaluation. To understand the user preference, we conduct a user study to evaluate 5 methods shown in Figure 6 of our paper. We appreciate your help if you can spend 3~4 minutes on this [study](http://169.236.182.49:8008/). Check the updated feedback [here](http://169.236.182.49:8008/dump) (please be polite and serious on results and comments) from extensive users.
 
 
 ## Acknowledgement

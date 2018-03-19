@@ -1,5 +1,5 @@
 # [UniversalStyleTransfer](https://arxiv.org/pdf/1705.08086.pdf)
-Torch implementation of our NIPS17 [paper](https://arxiv.org/pdf/1705.08086.pdf) on universal style transfer. For academic use only.
+Torch implementation of our NIPS17 [paper](https://arxiv.org/pdf/1705.08086.pdf) on universal style transfer.
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+) TensorFlow [implementation](https://github.com/eridgd/WCT-TF) by Evan Davis. 
 

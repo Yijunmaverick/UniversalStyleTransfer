@@ -120,7 +120,7 @@ Below is an exemplary comparison between w/o and w/ swap operation on conv5. Wit
 
 - In theory, the covariance matrix of whitened features should be Identity. In practise, it is not because we need to eliminate some extremely small eigen values (e.g., <1e-10) or add a small constant (e.g., 1e-7) to all eigen values in order to perform the inverse operation (D^-1/2) in the whitening.
 
-- The whitening method we used here is the ZCA whitening. Please take a look at this [blog](http://joelouismarino.github.io/blog_posts/blog_whitening.html) and this related [paper](https://arxiv.org/pdf/1512.00809.pdf) which discuss the optimality of different whitening methods.
+- The whitening method we used here is the **ZCA** whitening. Please take a look at this [blog](http://joelouismarino.github.io/blog_posts/blog_whitening.html) and this related [paper](https://arxiv.org/pdf/1512.00809.pdf) which discuss the optimality of different whitening methods.
 
 - Our decoders trained for reconstruction is not perfect. As inverting deeper features (e.g., conv5_1) to RGB images is relatively difficult, we expect better decoders from researchers. If users prefer to preserve detailed structures in the content during the transferring, a more powerful decoder is necessary.
 

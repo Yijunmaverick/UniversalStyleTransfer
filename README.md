@@ -71,7 +71,7 @@ th test_wct_interpolation2.lua -style YourTexturePath1,YourTexturePath2 -beta 0.
 
 <img src='figs/p5.jpg' width=800>
 
-Below we show an example of texture synthesis path from t1 (left) to t2, then t3, ..., to t8 and back to t1. You can also try the [Neural 3D Mesh Renderer](https://github.com/hiroharu-kato/neural_renderer) to apply our synthesized texture on a 3D Mesh.
+Below we show an example of texture synthesis path from t1 (left) to t2, then t3, ..., to t8 and back to t1. We also try the [Neural 3D Mesh Renderer](https://github.com/hiroharu-kato/neural_renderer) to apply the synthesized texture on a 3D Mesh.
 
 <p>
     <img src='figs/t.jpg' height=100 width=100 />

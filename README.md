@@ -89,6 +89,7 @@ Below we show an example of texture synthesis path from t1 (left) to t2, then t3
     <img src='figs/white.jpg' height=100 width=100 /> 
     <img src='figs/white.jpg' height=100 width=100 /> 
     <img src='figs/texture_interpolation.gif' width=200 />
+    <img src='figs/3D_render.gif' width=200 />
 </p>
 
 

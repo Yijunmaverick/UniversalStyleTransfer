@@ -3,7 +3,7 @@ Torch implementation of our NIPS17 [paper](https://arxiv.org/pdf/1705.08086.pdf)
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+) TensorFlow [implementation](https://github.com/eridgd/WCT-TF) by Evan Davis. 
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+) PyTorch [implementation](https://github.com/sunshineatnoon/PytorchWCT) by Xueting Li.
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+) PyTorch [implementation I](https://github.com/sunshineatnoon/PytorchWCT) by Xueting Li and [implementation II](https://github.com/pietrocarbo/deep-transfer) by Pietro Battilana.
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+) MatConvNet [implementation](https://github.com/ryanwebster90/autonn-universal-style-transfer-WCT) by Ryan Webster.
 

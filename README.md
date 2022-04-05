@@ -1,11 +1,11 @@
 # [UniversalStyleTransfer](https://arxiv.org/pdf/1705.08086.pdf)
 Torch implementation of our NIPS17 [paper](https://arxiv.org/pdf/1705.08086.pdf) on universal style transfer.
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+) TensorFlow [implementation](https://github.com/eridgd/WCT-TF) by Evan Davis. 
+TensorFlow [implementation](https://github.com/eridgd/WCT-TF) by Evan Davis. 
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+) PyTorch [implementation I](https://github.com/sunshineatnoon/PytorchWCT) by Xueting Li and [implementation II](https://github.com/pietrocarbo/deep-transfer) by Pietro Battilana.
+PyTorch [implementation I](https://github.com/sunshineatnoon/PytorchWCT) by Xueting Li and [implementation II](https://github.com/pietrocarbo/deep-transfer) by Pietro Battilana.
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+)![#f03c15](https://placehold.it/15/f03c15/000000?text=+) MatConvNet [implementation](https://github.com/ryanwebster90/autonn-universal-style-transfer-WCT) by Ryan Webster.
+MatConvNet [implementation](https://github.com/ryanwebster90/autonn-universal-style-transfer-WCT) by Ryan Webster.
 
 Universal style transfer aims to transfer arbitrary visual styles to content images. As long as you can find your desired style images on web, you can edit your content image with different transferring effects.
 

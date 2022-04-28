@@ -212,8 +212,8 @@ function feature_wct(contentFeature, styleFeature)
        end
     end
 
-    local c_d = c_e[{{1,k_c}}]:sqrt():pow(-1)
-    local s_d1 = s_e[{{1,k_s}}]:sqrt()
+    local c_d = c_e[{{1,k_c}}]:pow(-1)
+    local s_d1 = s_e[{{1,k_s}}]
 
     local whiten_contentFeature = nil
     local targetFeature = nil
